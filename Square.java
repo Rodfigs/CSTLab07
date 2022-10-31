@@ -8,6 +8,14 @@ package classexercise6;
  *
  * @author rodri
  */
-public class Square {
+public class Square extends Rectangle {
+    
+    public Square(int length, int width) {
+        super(length, width);
+    }
+    
+    public Square(int width){
+        super(width, width);
+    }
     
 }
